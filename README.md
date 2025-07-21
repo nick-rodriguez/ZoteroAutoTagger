@@ -19,7 +19,7 @@ ZoteroAutoTagger is a Python package that uses topic modeling and natural langua
 ## Installation
 
 ```bash
-git clone https://github.com/YOUR_USERNAME/ZoteroAutoTagger.git
+git clone https://github.com/nick-rodriguez/ZoteroAutoTagger.git
 cd ZoteroAutoTagger
 pip install -e .
 ```
