@@ -1,0 +1,23 @@
+# Example configuration file for topic labeling
+
+# Input file containing the text corpus or metadata
+input_file: "library.json"
+
+# Output file paths for topics and docs
+output_topics_file: "topics_labeled.json"
+output_docs_file: "docs_labeled.json"
+
+# Optional YAML file that maps topic numbers to custom labels
+topic_labels_yaml: "topic_labels.yaml"
+
+# Path to the trained BERTopic model
+model_path: "models/bertopic_model"
+
+# Minimum topic size to keep (if filtering)
+min_topic_size: 5
+
+# Whether to save visualizations
+save_visualizations: true
+
+# Directory where visualizations will be saved
+visualization_dir: "visualizations"

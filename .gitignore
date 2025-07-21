@@ -1,0 +1,34 @@
+# Byte-compiled / optimized / DLL files
+__pycache__/
+*.py[cod]
+*.so
+
+# Virtual environment
+.venv/
+env/
+venv/
+ENV/
+
+# PyCharm project settings
+.idea/
+
+# Mac OS files
+.DS_Store
+
+# Logs and local configs
+*.log
+*.yaml
+*.json
+!*.example.yaml
+
+# Installer logs
+pip-log.txt
+
+# Cache and build
+*.egg-info/
+.eggs/
+dist/
+build/
+
+# Misc
+*.swp

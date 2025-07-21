@@ -1,0 +1,24 @@
+# zotero_config.example.yaml
+
+# This config file stores Zotero API credentials and settings for interacting
+# with a Zotero library via the web API. It is used in `apply_zotero_tags.py`
+# to authenticate and update tags in your Zotero account.
+
+# -------------------------------------
+# REQUIRED FIELDS
+# -------------------------------------
+
+# Your personal Zotero API key. You can create or manage your API keys at:
+# https://www.zotero.org/settings/keys
+#
+# IMPORTANT: The API key must have write access to the Zotero library you want to tag.
+api_key: "YOUR_API_KEY_HERE"
+
+# Your Zotero user ID.
+# You can find this by visiting: https://www.zotero.org/settings/keys
+# and looking under your user information, or from your API key management page.
+user_id: "YOUR_USER_ID_HERE"
+
+# Library type to apply the tags to.
+# Use "user" if tagging your personal library, or "group" if applying to a group library.
+library_type: "user"  # or "group"
