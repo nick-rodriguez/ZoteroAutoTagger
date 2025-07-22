@@ -64,7 +64,7 @@ Optionally override topic names with `topic_labels.yaml`.
 
 ---
 
-## 🧪 Usage
+## Usage
 
 Run the full pipeline with:
 
